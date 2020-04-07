@@ -1,8 +1,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="images/piggybank-NEW-Alone-80-min.webp" rel="shortcut icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - PiggyVest</title>
+    <title>PiggyVest | Dashboard</title>
     <link href="styles/signup.css" rel="stylesheet" />
 </head>
 <body>
@@ -40,19 +41,56 @@
 
                 <div class="form-input">
                     <label>How Did You Hear About?(Optional)</label>
-                    <select>
-                        <option>Click To Start</option>
-                        <option>Facebook</option>
-                        <option>Twitter</option>
-                        <option>Instagram</option>
-                        <option>Friend/Family/Coworker Referral</option>
-                        <option>Google Search</option>
-                        <option>Google Playstore</option>
-                        <option>Online Blog</option>
-                        <option>Local Newspaper</option>
-                        <option>At an Event</option>
-                        <option>Others</option>
-                    </select>
+
+                    <div class="select-box">
+                        
+                        <div class="options-container">
+                            <div class="option">
+                                <input type="radio" class="radio" id="facebook" name="categoary" />
+                                <label for="facebook">Facebook</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="twitter" name="categoary" />
+                                <label for="twitter">Twitter</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="instagram" name="categoary" />
+                                <label for="instagram">Instagram</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="friends" name="categoary" />
+                                <label for="friends">Friend/Family/Coworker Referral</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="google" name="categoary" />
+                                <label for="google">Google Search</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="playstore" name="categoary" />
+                                <label for="playstore">Google Playstore</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="blog" name="categoary" />
+                                <label for="blog">Online Blog</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="newspaper" name="categoary" />
+                                <label for="newspaper">Local Newspaper</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="event" name="categoary" />
+                                <label for="event">At an Event</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="others" name="categoary" />
+                                <label for="others">Others</label>
+                            </div>
+                        </div>
+
+                        <div class="selected">
+                            Click To Start
+                        </div>
+                    </div>
                 </div>
 
                 <button>create account</button>
@@ -63,5 +101,7 @@
             </div>
         </div>
     </section>
+
+    <script src="script/main.js"></script>
 </body>
 </html>
